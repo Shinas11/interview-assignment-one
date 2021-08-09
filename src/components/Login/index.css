@@ -1,0 +1,69 @@
+.login-form-container {
+  background-image: url("https://res.cloudinary.com/desgftwin/image/upload/v1627986851/samples/React%20Movies/netfilx_1_1_ub0mtu.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    background-color: black;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.form-container {
+  height: 350px;
+  width: 350px;
+  padding: 20px;
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.login-head {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.username-input-field {
+  background: #333333;
+  border-radius: 2px;
+}
+.password-input-field {
+  background: #333333;
+  border-radius: 2px;
+}
+
+.error-message {
+  color: crimson;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+}

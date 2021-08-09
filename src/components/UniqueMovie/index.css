@@ -1,0 +1,52 @@
+.unique-movie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #192734;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #53836f;
+  padding: 20px;
+  border-radius: 12px;
+  align-items: center;
+  width: 70%;
+}
+
+.unique-title {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 26px;
+
+  color: rgb(189, 189, 189);
+}
+.unique-description {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb(189, 189, 189);
+  width: 70%;
+}
+.unique-genres {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+}
+
+.products-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
